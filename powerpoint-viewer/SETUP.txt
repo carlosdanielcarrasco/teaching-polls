@@ -1,0 +1,13 @@
+Teaching Polls Web Viewer
+Based on peopleworks/powerpointwebviewer (MIT license included).
+
+Commit and push the new powerpoint-viewer folder in the teaching-polls repo.
+After GitHub Pages deploys, restart PowerPoint and look under Home > Add-ins
+for Teaching Polls Web Viewer (possibly under Developer Add-ins).
+Insert the viewer on a slide and enter the poll page URL.
+
+The manifest belongs in:
+~/Library/Containers/com.microsoft.Powerpoint/Data/Documents/wef/
+
+Use a public voting/results URL in a deck you plan to distribute.
+A private presenter URL contains a control token, which would be saved in the deck.
